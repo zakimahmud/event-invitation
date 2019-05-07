@@ -1,0 +1,263 @@
+body{
+  font: normal normal bold 19px/1.4em,  Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #B09259;
+
+}
+*{
+  padding: 0px;
+  margin: 0px;
+}
+.back{
+  width: 100%;
+  height:950px;
+  background-size: cover;
+  background-image: url('flower1.jpg');
+  position: fixed;
+}
+.headr{
+  width: 100%;
+  height: 50px;
+  color: #B09259;
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background: white;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+
+}
+
+.headr ul li{
+  list-style-type: none;
+  display: inline-block;
+  line-height: 3px;
+}
+.headr ul li a{
+  text-decoration: none;
+  color: #B09259;
+  font-family: 'eb garamond',serif;
+  font-size: 25px;
+  padding: 25px;
+  display: block;
+}
+.headr ul li a:hover{
+  text-decoration: none;
+  color: white;
+  font-family: 'eb garamond',serif;
+  font-size: 25px;
+  background:  #B09259;
+  display: inline-block;
+}
+
+
+.font_0{
+  font: normal normal normal 60px/1.4em 'eb garamond',serif;
+}
+.font_1{
+  font: normal normal normal 38px/1.4em 'eb garamond',serif;
+}
+.font_2{
+  font: normal normal normal 25px/1.4em 'eb garamond',serif;
+}
+.font_3{
+  font: normal normal bold 18px/1.4em 'eb garamond',serif;
+  color: #B09259;
+}
+.main{
+  width: 100%;
+  height:950px;
+  background-size: cover;
+  position: relative;
+}
+.abc{
+  width: 100%;
+  height: 100px;
+
+}
+.p1{
+  width: 650px;
+  height: 650px;
+  margin:0 auto;
+  background-image: url(border.png);
+  background-size: contain;
+  text-align: center;
+}
+
+.story{
+  width: 100%;
+  height: 700px;
+  background: white;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'eb garamond',serif;
+}
+.story img{
+	width: 300px;
+	height: 300px;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 30px;
+
+}
+.bride{
+  width: 50%;
+  height:100%;
+  float: left;
+  font-family: 'eb garamond',serif;
+  font-weight: 38px;
+}
+.groom{
+  width: 50%;
+  height:100%;
+  float: left;
+  font-family: 'eb garamond',serif;
+  font-weight: 38px;
+}
+.welcomeby{
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'eb garamond',serif;
+
+}
+.details{
+  width: 100%;
+  height: 800px;
+  background: pink;
+  background-size: cover;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'eb garamond',serif;
+  font-weight: 20px;
+}
+.when{
+  width: 50%;
+  height:100%;
+  padding-top: 100px;
+  float: left;
+}
+.when svg {
+  width: 50px;
+  height: 45px;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  fill: #B09259;
+  fill-opacity: 1;
+  stroke: rgba(176, 146, 89, 1);
+  }
+  .when svg * {
+    vector-effect:non-scaling-stroke;
+  }
+
+.where{
+  width: 50%;
+  height:100%;
+  padding-top: 100px;
+  float: left;
+}
+.where svg {
+    width: 50px;
+    height: 45px;
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    fill: #FFFFFF;
+    fill-opacity: 0;
+    stroke: rgba(176, 146, 89, 1);
+  }
+  .where svg * {
+    vector-effect:non-scaling-stroke;
+  }
+
+.map{
+  width: 100%;
+  height: 500px;
+  background: #B09259;
+  opacity:0.7;
+	filter:alpha (opacity=70);
+  position: relative;
+  margin: 0 auto;
+  font-family: 'eb garamond',serif;
+}
+.countContainer{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  text-align: center;
+  background: black;
+  border: 1px solid #999;
+  padding: 10px;
+  box-shadow: 0 0 5px 3px #ccc;
+
+}
+.info{
+  font-size: 50px;
+}
+.time{
+  font-size: 30px;
+}
+.design{
+  font-size: 18px;
+}
+.RSVP{
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  position: relative;
+
+}
+.p2{
+  width: 650px;
+  height: 400px;
+  margin: 0 auto;
+  background-image: url(border.png);
+  background-size: cover;
+  text-align: center;
+  font-family: 'eb garamond',serif;
+}
+
+.button{
+  padding: 100px;
+}
+.rsvp{
+	padding: 10px 30px;
+	cursor: pointer;
+	color: white;
+	border: 3px;
+	background-color: #B09259;
+	margin-bottom: 20px;
+	font-family:'eb garamond',serif;
+	font-size:24px;
+}
+.rsvp:hover{
+	background:#B09259;
+	transition:all 0.45s;
+  color: white;
+	opacity:0.7;
+	filter:alpha (opacity=70);
+}
+.backtop{
+  width: 100%;
+  height: 200px;
+  color: white;
+  background: rgb(209, 186, 142);
+  position: relative;
+}
+.backtop a{
+  padding: 22px;
+  text-decoration: none;
+  color: white;
+  display: block;
+  font-size: 30px;
+}
